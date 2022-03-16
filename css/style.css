@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(99, 15, 177);
+}
+
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar{
+    text-align: center;
+}
+
+.img-sidebar img{
+    border: 8px solid #9f51e6;
+    width: 80%;
+    border-radius: 200%;
+}
+
+.menu{
+    margin: 20px left;
+    text-align: center;
+    position: relative;
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.menu a:hover{
+    opacity: 1;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.description{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.description h2{
+    color: #343a40;
+    font-size: 46px;
+}
+
+section.description h2 > span,
+section.description h3 > span
+{
+    color: blueviolet;
+}
+
+section.description h3{
+    margin: 15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+section.description p{
+    color:#6c757d;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.icons-social{
+    margin-top: 20px;
+}
+
+.icons-social a{
+    text-decoration: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 20px;
+}
