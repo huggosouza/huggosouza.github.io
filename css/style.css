@@ -93,6 +93,24 @@ section.description p{
     margin-top: 0px;
 }
 
+section.education p{
+    color:#6c757d;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section.education h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+section.education ul li{
+    color: #6c757d;
+    font-size: 20px;
+    margin-left: 23px;
+    list-style-position: inside;
+}
+
 .icons-social{
     margin-top: 20px;
 }
