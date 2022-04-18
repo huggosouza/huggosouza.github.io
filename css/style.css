@@ -64,12 +64,6 @@ html,body{
     padding: 0 3%;
 }
 
-section.description{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 section.description h2{
     color: #343a40;
     font-size: 46px;
