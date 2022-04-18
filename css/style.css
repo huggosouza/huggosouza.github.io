@@ -33,7 +33,7 @@ html,body{
 .img-sidebar img{
     border: 8px solid #9f51e6;
     width: 80%;
-    border-radius: 200%;
+    border-radius: 10%;
 }
 
 .menu{
@@ -112,17 +112,17 @@ section.list ul li{
 }
 
 .icons-social{
-    margin-top: 20px;
+    margin-top: 3px;
 }
 
 .icons-social a{
     text-decoration: none;
     color: white;
-    width: 40px;
+    width: 20px;
     height: 40px;
     border-radius: 20px;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 8px;
     text-align: center;
     line-height: 20px;
 }
