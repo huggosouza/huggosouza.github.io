@@ -120,3 +120,11 @@ section.list ul li{
     text-align: center;
     line-height: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .img-sidebar img{
+        border: 3px solid #9f51e6;
+        width: 80%;
+        border-radius: 10%;
+    }
+}
