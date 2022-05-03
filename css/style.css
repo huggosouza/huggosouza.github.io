@@ -128,3 +128,35 @@ section.list ul li{
         border-radius: 10%;
     }
 }
+
+section.projects a img{
+    width: 60%;
+    height: 80%;
+    transition: all .2s;
+    border-color: #9f51e6;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    margin-left: 8%;
+}
+
+section.projects a img:hover{
+    transform: scale(1.6);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+}
+
+section.projects h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+section.projects ul li{
+    color: #6c757d;
+    font-size: 20px;
+    margin-left: 23px;
+    list-style-position: inside;
+    flex-direction: row;
+    align-items: center;
+}
